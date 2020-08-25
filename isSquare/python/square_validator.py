@@ -3,7 +3,7 @@ from collections import deque
 
 class SquareValidator:
 
-	sqrDist = lambda a, b :  (a.x - b.x)*(a.x - b.x) + (a.y - b.y)*(a.y - b.y)
+	sqrDist = lambda a, b :  (a.x - b.x)**2 + (a.y - b.y)**2
 
 	class Point:
 		
